@@ -9,7 +9,7 @@ WORKDIR /opt/spring_boot
 
 COPY /target/spring-mysql*.jar spring_mysql.jar
 
-SHELL [ "bin/sh", "-c" ]
+SHELL [ "/bin/sh", "-c" ]
 
 EXPOSE 5005
 EXPOSE 8080
